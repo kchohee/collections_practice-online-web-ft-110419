@@ -12,6 +12,7 @@ end
 
 def swap_elements(swap_arg)
   temp = swap_arg[1]
+<<<<<<< HEAD
   swap_arg[1] = swap_arg[2]
   swap_arg[2] = temp
   return swap_arg
@@ -40,3 +41,30 @@ end
 def add_s(s_words)
  return s_words.each_with_index.collect {|element, index| index == 1 ? element : "#{element}s"}
 end
+=======
+  cho = "awesome"
+  swap_arg[1] = swap_arg[2]
+  swap_arg[1] = temp
+  return swap_arg
+end
+#
+# def reverse_array
+#
+# end
+#
+# def kesha_maker
+#
+# end
+#
+# def find_a
+#
+# end
+#
+# def sum_array
+#
+# end
+#
+# def add_s
+#
+# end
+>>>>>>> 1b454ba1c07476349b3326439d3bca5b63bd9bcc
